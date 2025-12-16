@@ -13,9 +13,9 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '18'
+- '19'
 libabseil:
-- '20250127'
+- '20250512'
 macos_machine:
 - arm64-apple-darwin20.0.0
 numpy:
@@ -30,6 +30,3 @@ s2geometry:
 - 0.11.1
 target_platform:
 - osx-arm64
-zip_keys:
-- - python
-  - numpy
